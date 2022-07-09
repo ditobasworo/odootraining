@@ -1,0 +1,25 @@
+#open terminal kemudian ketikan code di bawah untuk membuka repository
+
+sudo nano /etc/apt/sources.list
+
+#jika sudah masuk hapus semua ctrl+shift+k
+#replace dengan repository lokal
+
+deb http://kebo.pens.ac.id/ubuntu/ focal main restricted universe multiverse
+deb http://kebo.pens.ac.id/ubuntu/ focal-updates main restricted universe multiverse
+deb http://kebo.pens.ac.id/ubuntu/ focal-security main restricted universe multiverse
+deb http://kebo.pens.ac.id/ubuntu/ focal-backports main restricted universe multiverse
+deb http://kebo.pens.ac.id/ubuntu/ focal-proposed main restricted universe multiverse
+
+deb http://security.ubuntu.com/ubuntu focal-security main restricted 
+deb http://security.ubuntu.com/ubuntu focal-security universe 
+deb http://security.ubuntu.com/ubuntu focal-security multiverse 
+
+#credit to : https://www.linuxsec.org/2020/10/repository-focal.html
+
+#untuk menyimpan ctrl+O lalu enter
+#lalu keluar ctrl+k
+
+#lalu update ketikan code dibawah ini di terminal
+
+sudo apt update
