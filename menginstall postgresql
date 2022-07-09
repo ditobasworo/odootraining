@@ -1,3 +1,7 @@
 #menginstall postgresql dengan cara run code dibawah ini di terminal
 
 sudo apt install -y postgresql
+
+#sistem akan menginstall postgresql
+
+#membuat 
