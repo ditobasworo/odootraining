@@ -1,0 +1,6 @@
+#download odoo14 
+
+wget https://nightly.odoo.com/14.0/nightly/src/odoo_14.0.latest.tar.gz
+
+#tunggu sampai proses download selesai
+
