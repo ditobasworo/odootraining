@@ -1,0 +1,11 @@
+#open terminal masukan
+
+python3 odoo/odoo-14.0/odoo-server -c odoo/conf/odoo-telkom.conf
+
+atau
+
+python3 odoo/odoo-14.0/odoo-server -c odoo/conf/odoo-antam.conf
+
+atau
+
+python3 odoo/odoo-14.0/odoo-server -c odoo/conf/odoo-pindad.conf
