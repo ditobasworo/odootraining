@@ -4,3 +4,49 @@ wget https://nightly.odoo.com/14.0/nightly/src/odoo_14.0.latest.tar.gz
 
 #tunggu sampai proses download selesai
 
+#setelah proses download selesai selanjutnya masuk ke download lalu instal secara GUI (menggunakan mouse dan keyboard)
+
+credit to : https://tutorialopenerp.wordpress.com/2021/02/18/odoo-14-instalasi-odoo-14-pada-ubuntu-desktop-20-04/
+
+#kemudian membuar folder project 
+#berikut ini adalah langkah-langkah nya
+
+1. Buat folder odoo di direktori Home kita
+2. Masuk ke dalam folder odoo lalu buat 3 folder lagi yaitu : addons, source, conf
+3. Pindahkan file hasil download (ODOO14) ke dalam folder odoo dan extract file tersebut. File zip nya bisa dimasukan ke folder source untuk arsip
+4. Masuk ke folder hasil extract dan rename folder di dalamnya menjadi odoo-14.0. Lalu keluarkan folder itu (cut) agar sejajar dengan source, conf, dan addons
+5. Masuk ke dalam folder odoo-14.0 lalu masuk lagi ke dalam folder setup
+6. Copas file odoo ke path yang sama lalu rename menjadi odoo-server
+7. Klik kanan file odoo-server lalu pilih Properties dan berikan centang pada checkbox Allow Execute…
+8. Pindahkan file odoo-server ke luar folder setup
+9. Buat 3 folder baru di dalam folder addons, yaitu : TELKOM, ANTAM, dan PINDAD
+10. Buat 3 file baru di dalam folder conf, yaitu : odoo-telkom.conf, odoo-antam.conf, dan odoo-pindad.conf
+11. Masing-masing isi file conf sebagai berikut :
+
+odoo-telkom.conf
+[options]
+admin_passwd = superadmin
+db_host = False
+db_port = False
+db_user = odoo
+db_password = odoo
+addons_path = /home/USER_LAPTOP/odoo/addons/ANTAM
+
+odoo-antam.conf
+
+[options]
+admin_passwd = superadmin
+db_host = False
+db_port = False
+db_user = odoo
+db_password = odoo
+addons_path = /home/USER_LAPTOP/odoo/addons/ANTAM
+
+odoo-pindad.conf
+
+admin_passwd = superadmin
+db_host = False
+db_port = False
+db_user = odoo
+db_password = odoo
+addons_path = /home/USER_LAPTOP/odoo/addons/PINDAD
