@@ -50,3 +50,14 @@ db_port = False
 db_user = odoo
 db_password = odoo
 addons_path = /home/USER_LAPTOP/odoo/addons/PINDAD
+
+Catatan :
+
+– Jangan lupa gunakan password superadmin untuk membuat database baru.
+– Nama folder TELKOM, ANTAM, dan PINDAD menandakan nama project yang sedang kita handle.
+– Folder project berfungsi untuk menampung modul-modul custom yang kita kembangkan untuk project terkait.
+– Nama file conf : odoo-telkom.conf, odoo-antam.conf, dan odoo-pindad.conf mengikuti nama folder project yang sedang kita handle. Silahkan disesuaikan
+– Silahkan sesuaikan nama USER_LAPTOP dengan user kalian masing-masing. 
+Jika bingung ketik pwd pada terminal, nanti akan terlihat user laptop kita disebelah path home. 
+Jika di laptop saya akan keluar /home/dito. 
+Berarti USER_LAPTOP saya adalah dito
