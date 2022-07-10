@@ -1,0 +1,18 @@
+#odoo menggunakan bahasa python jadi kita harus menginstall python3 dan library lain
+
+sudo apt install -y git python3-pip python3-polib build-essential wget python3-dev python3-venv python3-wheel libfreetype6-dev libxml2-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools node-less libjpeg-dev zlib1g-dev libpq-dev libxslt1-dev libldap2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev
+ 
+ # download wkhtml
+ 
+ wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
+ 
+ #install wkhtml
+ 
+ sudo apt install -y ./wkhtmltox_0.12.6-1.bionic_amd64.deb
+ 
+ #code di bawah ini untuk menjalan file requirement.txt di folder odoo/odoo-14.0/requirement.txt 
+ 
+ sudo pip3 install -r /home/dito/odoo/odoo-14.0/requirements.txt
+ 
+ #dito adalah nama user laptop ini
+ 
