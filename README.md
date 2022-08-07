@@ -1,2 +1,2 @@
 # odootraining
-repository for odoo training
+Langkah-langkah belajar odoo
